@@ -1,6 +1,6 @@
 # Grafana Static Data Source Variable Plugin
 
-[![CircleCI](https://circleci.com/gh/criteo/grafana-static-variables-datasource/tree/master.svg?style=svg)](https://circleci.com/gh/criteo/grafana-static-variables-datasource/tree/master)
+[![CircleCI](https://circleci.com/gh/criteo/grafana-static-variables-datasource/tree/main.svg?style=svg)](https://circleci.com/gh/criteo/grafana-static-variables-datasource/tree/main)
 
 This plugin allows you to serve static variables for your dashboards
 

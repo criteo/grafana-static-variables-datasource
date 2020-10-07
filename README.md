@@ -9,7 +9,7 @@ Create a new datasource and paste a valid Map<string,string[]> in the json field
 ```
 { 
     "regions": ["Europe", "America", "Asia"], 
-    "datacenters": ["Paris", "Milan", "NewYork", "Vancouver", "Sidney", "Singapour"] },
+    "datacenters": ["Paris", "Milan", "NewYork", "Vancouver", "Sidney", "Singapour"] ,
     "Europe": ["Paris", "Milan"],
     "America": ["NewYork", "Vancouver"],
     "Asia": ["Sidney", "Singapour"]
@@ -20,6 +20,16 @@ Now add a new variable to one of your dashboards and select the datasource you j
 You can use any of the map key in the query field to return the associated list of values    
 
 This works pretty well with the new value groups/tags feature
+
+## Screenshots
+Datasource configuration :  
+![Datasource configuration](https://raw.githubusercontent.com/criteo/grafana-static-variables-datasource/main/screenshots/datasource_configuration.jpg)
+
+Variable configuration :    
+![Datasource configuration](https://raw.githubusercontent.com/criteo/grafana-static-variables-datasource/main/screenshots/variable_configuration.jpg)
+
+Dashboard variable :  
+![Datasource configuration](https://raw.githubusercontent.com/criteo/grafana-static-variables-datasource/main/screenshots/dashboard_variable.jpg)  
 
 ## Getting started
 1. Install dependencies
